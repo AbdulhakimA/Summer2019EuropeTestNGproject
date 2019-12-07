@@ -1,6 +1,6 @@
 package com.cybertek.tests.day10_sync;
 
-import com.cybertek.utilities.WebDriverFactory;
+import com.cybertek.utilities.Web_Driver_Factory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -15,58 +15,69 @@ public class ExplicitWaitTest {
 
     @BeforeMethod
     public void setUpMethod(){
-        driver = WebDriverFactory.getDriver("chrome");
+        driver = Web_Driver_Factory.getdriver("chrome");
 
 
     }
 
     @AfterMethod
     public void tearDownMethod() throws InterruptedException {
-
-        driver.quit();
+       Thread.sleep(2000);
+       driver.quit();
 
     }
 
     @Test
-    public void test1() throws InterruptedException {
+    public void test1(){
         driver.get("http://practice.cybertekschool.com/dynamic_loading/1");
 
-        //clicking the start button
+
+        //click the start button
         driver.findElement(By.tagName("button")).click();
 
-        //find the username inputbox
-        WebElement username = driver.findElement(By.id("username"));
-
-        //HOW TO WAIT EXPLICITLY ?
-        //Create Explicit wait object
-        WebDriverWait wait = new WebDriverWait(driver,50);
-
-        //call until method from wait object
-        //waiting for the specific element to be visible (up to 10 sec)
-        wait.until(ExpectedConditions.visibilityOf(username));
+        //how to wait XPILICITLY?
+        //Create Expilicit object
 
 
-        //sending some username
-        username.sendKeys("MikeSmith");
+
+
+        //find the userName input box
+        WebElement userName= driver.findElement(By.id("username"));
+
+
+        //how to wait XPILICITLY?
+        //Create Expilicit object
+        WebDriverWait wait= new WebDriverWait(driver,10);
+
+        wait.until(ExpectedConditions.visibilityOf(userName));
+
+        //sending user name to inbox
+        userName.sendKeys("MikeSmith ");
+
     }
 
     @Test
     public void test2(){
+
         driver.get("http://practice.cybertekschool.com/dynamic_controls");
 
-        //click enable
-        driver.findElement(By.xpath("//button[contains(text(),'Enable')]")).click();
 
-        //finding input box
-        WebElement inputBox = driver.findElement(By.cssSelector("input[type='text']"));
+        //click enable button
+        driver.findElement(By.xpath("//*[text()='Enable']")).click();
 
-        //Wait until inputbox is enabled or clickable
-        //create to object to wait
-        WebDriverWait wait = new WebDriverWait(driver,2);
+        //find the inputBox
+        WebElement inputBox=driver.findElement(By.cssSelector("input[type='text']"));
+
+        WebDriverWait wait=new WebDriverWait(driver,10);
 
         wait.until(ExpectedConditions.elementToBeClickable(inputBox));
-        //type something in the inputbox
-        inputBox.sendKeys("Something something");
+
+        inputBox.sendKeys("mikeSmith");
+
+
+
+
 
     }
+
 }

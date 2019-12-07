@@ -1,6 +1,6 @@
 package com.cybertek.tests.day10_sync;
 
-import com.cybertek.utilities.WebDriverFactory;
+import com.cybertek.utilities.Web_Driver_Factory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,30 +12,32 @@ import java.util.concurrent.TimeUnit;
 
 public class ThreadSleepExample {
 
-    WebDriver driver;
+  WebDriver driver;
 
-    @BeforeMethod
-    public void setUpMethod(){
-        driver = WebDriverFactory.getDriver("firefox");
-        driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
-    }
 
-    @AfterMethod
+  @BeforeMethod
+    public  void setupMethod(){
+      driver=Web_Driver_Factory.getdriver("chrome");
+
+
+  }
+
+
+  @AfterMethod
+
     public void tearDownMethod() throws InterruptedException {
-        Thread.sleep(2000);
-        driver.quit();
+      Thread.sleep(3000);
+      driver.quit();
+  }
 
-    }
 
+  @Test
 
-    @Test
-    public void test1() throws InterruptedException {
-        driver.get("http://practice.cybertekschool.com/dynamic_loading/3");
-        //wait for 6 second
-        //Thread.sleep(6000);
+    public void Test1() throws InterruptedException {
 
-      WebElement username=  driver.findElement(By.id("username"));
-      username.sendKeys("asdasdasd");
-
-    }
+      driver.get("http://practice.cybertekschool.com/dynamic_loading/3");
+      Thread.sleep(5000);
+      driver.findElement(By.id("username")).sendKeys("MIkeSmith");
+  }
 }
+
