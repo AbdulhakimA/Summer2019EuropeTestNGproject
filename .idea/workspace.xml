@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec344ce2-46b5-4023-bf3c-003604577d9b" name="Default Changelist" comment="newAdded">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Resources/testfile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_file_upload/FilePathExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_file_upload/Fileupload.java" afterDir="false" />
+    <list default="true" id="ec344ce2-46b5-4023-bf3c-003604577d9b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_sync/ExplicitWaitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_sync/ExplicitWaitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_sync/ImplicitWaitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_sync/ImplicitWaitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_sync/ThreadSleepExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_sync/ThreadSleepExample.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,18 +54,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Fileupload.test2">
-    <configuration name="FilePathExample.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CreatColum_Rowmethod.Test1">
+    <configuration name="CreatColum_Rowmethod.Test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="uropetesngproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day10_file_upload.*" />
+          <option name="PATTERN" value="HomeWork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day10_file_upload" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day10_file_upload.FilePathExample" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="HomeWork" />
+      <option name="MAIN_CLASS_NAME" value="HomeWork.CreatColum_Rowmethod" />
+      <option name="METHOD_NAME" value="Test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -80,51 +73,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fileupload (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WebTableExample.getAllCellsInRow" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="uropetesngproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day10_file_upload.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day12_WebTables.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day10_file_upload" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day10_file_upload.Fileupload" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Fileupload" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="uropetesngproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day10_file_upload.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day10_file_upload" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day10_file_upload.Fileupload" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Fileupload.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="uropetesngproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day10_file_upload.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day10_file_upload" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day10_file_upload.Fileupload" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day12_WebTables" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day12_WebTables.WebTableExample" />
+      <option name="METHOD_NAME" value="getAllCellsInRow" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -132,17 +91,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fileupload.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WebTableExample.getCellInRelationToAnother" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="uropetesngproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day10_file_upload.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day12_WebTables.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day10_file_upload" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day10_file_upload.Fileupload" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day12_WebTables" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day12_WebTables.WebTableExample" />
+      <option name="METHOD_NAME" value="getCellInRelationToAnother" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTableExample.getrow" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="uropetesngproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day12_WebTables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day12_WebTables" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day12_WebTables.WebTableExample" />
+      <option name="METHOD_NAME" value="getrow" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTableExample.printCellByIndex" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="uropetesngproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day12_WebTables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day12_WebTables" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day12_WebTables.WebTableExample" />
+      <option name="METHOD_NAME" value="printCellByIndex" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -152,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Fileupload.test2" />
-        <item itemvalue="TestNG.Fileupload (1)" />
-        <item itemvalue="TestNG.FilePathExample.test1" />
-        <item itemvalue="TestNG.Fileupload.test1" />
-        <item itemvalue="TestNG.Fileupload" />
+        <item itemvalue="TestNG.CreatColum_Rowmethod.Test1" />
+        <item itemvalue="TestNG.WebTableExample.printCellByIndex" />
+        <item itemvalue="TestNG.WebTableExample.getCellInRelationToAnother" />
+        <item itemvalue="TestNG.WebTableExample.getrow" />
+        <item itemvalue="TestNG.WebTableExample.getAllCellsInRow" />
       </list>
     </recent_temporary>
   </component>
@@ -171,6 +166,14 @@
       <option name="presentableId" value="Default" />
       <updated>1575324980929</updated>
     </task>
+    <task id="LOCAL-00001" summary="newAdded">
+      <created>1575717598517</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575717598517</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
