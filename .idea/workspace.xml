@@ -54,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CreatColum_Rowmethod.Test1">
+  <component name="RunManager" selected="TestNG.LoginTest.test1">
     <configuration name="CreatColum_Rowmethod.Test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="uropetesngproject" />
       <extension name="coverage">
@@ -73,17 +73,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebTableExample.getAllCellsInRow" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="uropetesngproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day12_WebTables.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day13_properties_driver_testbase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day12_WebTables" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day12_WebTables.WebTableExample" />
-      <option name="METHOD_NAME" value="getAllCellsInRow" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_properties_driver_testbase" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_properties_driver_testbase.LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="uropetesngproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day13_properties_driver_testbase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_properties_driver_testbase" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_properties_driver_testbase.LoginTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -91,17 +108,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebTableExample.getCellInRelationToAnother" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="singletonTest.test2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="uropetesngproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day12_WebTables.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day13_properties_driver_testbase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day12_WebTables" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day12_WebTables.WebTableExample" />
-      <option name="METHOD_NAME" value="getCellInRelationToAnother" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_properties_driver_testbase" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_properties_driver_testbase.singletonTest" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -109,35 +126,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebTableExample.getrow" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="singletonTest.test3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="uropetesngproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day12_WebTables.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day13_properties_driver_testbase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day12_WebTables" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day12_WebTables.WebTableExample" />
-      <option name="METHOD_NAME" value="getrow" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WebTableExample.printCellByIndex" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="uropetesngproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day12_WebTables.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day12_WebTables" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day12_WebTables.WebTableExample" />
-      <option name="METHOD_NAME" value="printCellByIndex" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_properties_driver_testbase" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_properties_driver_testbase.singletonTest" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -147,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTest.test1" />
+        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.singletonTest.test3" />
+        <item itemvalue="TestNG.singletonTest.test2" />
         <item itemvalue="TestNG.CreatColum_Rowmethod.Test1" />
-        <item itemvalue="TestNG.WebTableExample.printCellByIndex" />
-        <item itemvalue="TestNG.WebTableExample.getCellInRelationToAnother" />
-        <item itemvalue="TestNG.WebTableExample.getrow" />
-        <item itemvalue="TestNG.WebTableExample.getAllCellsInRow" />
       </list>
     </recent_temporary>
   </component>
