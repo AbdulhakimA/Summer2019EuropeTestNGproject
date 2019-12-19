@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="ec344ce2-46b5-4023-bf3c-003604577d9b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day13_properties_driver_testbase/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day13_properties_driver_testbase/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/TestBase.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +40,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -54,52 +59,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest.test1">
-    <configuration name="CreatColum_Rowmethod.Test1" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.NegativeLoginTestWithReport.wrongPasswordTest">
+    <configuration name="ExtentDemoTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="uropetesngproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomeWork.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day15_extent_report.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="HomeWork" />
-      <option name="MAIN_CLASS_NAME" value="HomeWork.CreatColum_Rowmethod" />
-      <option name="METHOD_NAME" value="Test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="uropetesngproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day13_properties_driver_testbase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_properties_driver_testbase" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_properties_driver_testbase.LoginTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="uropetesngproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day13_properties_driver_testbase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_properties_driver_testbase" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_properties_driver_testbase.LoginTest" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day15_extent_report" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day15_extent_report.ExtentDemoTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -108,17 +78,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="singletonTest.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NegativeLoginTestWithReport.wrongPasswordTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="uropetesngproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day13_properties_driver_testbase.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day15_extent_report.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_properties_driver_testbase" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_properties_driver_testbase.singletonTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day15_extent_report" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day15_extent_report.NegativeLoginTestWithReport" />
+      <option name="METHOD_NAME" value="wrongPasswordTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -126,17 +96,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="singletonTest.test3" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PageSubtitleTest.VerifySubTitleTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="uropetesngproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day13_properties_driver_testbase.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day14_pom_tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_properties_driver_testbase" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_properties_driver_testbase.singletonTest" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day14_pom_tests" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day14_pom_tests.PageSubtitleTest" />
+      <option name="METHOD_NAME" value="VerifySubTitleTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PositiveLoginTest.LiginAsStoremanager" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="uropetesngproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day14_pom_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day14_pom_tests" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day14_pom_tests.PositiveLoginTest" />
+      <option name="METHOD_NAME" value="LiginAsStoremanager" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepeatOptionTest.RepeatRadioButtonTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="uropetesngproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day15_pom_Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day15_pom_Tests" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day15_pom_Tests.RepeatOptionTest" />
+      <option name="METHOD_NAME" value="RepeatRadioButtonTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -146,13 +152,17 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest.test1" />
-        <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.singletonTest.test3" />
-        <item itemvalue="TestNG.singletonTest.test2" />
-        <item itemvalue="TestNG.CreatColum_Rowmethod.Test1" />
+        <item itemvalue="TestNG.NegativeLoginTestWithReport.wrongPasswordTest" />
+        <item itemvalue="TestNG.ExtentDemoTest.test1" />
+        <item itemvalue="TestNG.RepeatOptionTest.RepeatRadioButtonTest" />
+        <item itemvalue="TestNG.PageSubtitleTest.VerifySubTitleTest" />
+        <item itemvalue="TestNG.PositiveLoginTest.LiginAsStoremanager" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+    <option name="ACTIVE_ACTIONS" value=",VISIBILITY_SORTER" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
