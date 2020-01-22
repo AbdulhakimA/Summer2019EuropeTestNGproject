@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class NegativeLogin extends TestBase {
 
     @Test
-    public void WrongPasswordTest(){
+    public void sd(){
 
         //use login class to navigate login element and send keys to inbox
         LoginPage logInPage =new LoginPage();

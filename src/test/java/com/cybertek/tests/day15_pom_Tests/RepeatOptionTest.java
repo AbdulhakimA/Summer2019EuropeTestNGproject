@@ -40,6 +40,7 @@ public class RepeatOptionTest extends TestBase {
         calendarEventsPage.waitUntilLoaderScreenDisappear();
         calendarEventsPage.createCalendarEvent.click();
 
+        BrowserUtils.waitFor(4);
         CreateCalenderEventsPage createCalenderEventsPage =new CreateCalenderEventsPage();
         createCalenderEventsPage.repeat.click();
 

@@ -17,9 +17,7 @@ public class verifyContactInfoTest extends TestBase {
     @Test
     public void ContactDetailTest(){
 
-
-
-        extentLogger =extentReports.createTest("ContactDetailTest");
+        extentLogger =report.createTest("ContactDetailTest");
         LoginPage loginPage = new LoginPage();
 
         String username = ConfigurationReader.get("salesmanager_username");

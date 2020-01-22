@@ -10,7 +10,7 @@ public class NegativeLoginTestWithReport extends TestBase {
     @Test
     public void wrongPasswordTest(){
         //name of the test for report
-        extentLogger = extentReports.createTest("Wrong Password Test");
+        extentLogger = report.createTest("Wrong Password Test");
 
         LoginPage loginPage = new LoginPage();
         loginPage.usernameInput.sendKeys("user1");
@@ -29,7 +29,7 @@ public class NegativeLoginTestWithReport extends TestBase {
     @Test
     public void wrongUsernameTest(){
         //name of the test for report
-        extentLogger = extentReports.createTest("Wrong Username Test");
+        extentLogger = report.createTest("Wrong Username Test");
         LoginPage loginPage = new LoginPage();
         loginPage.usernameInput.sendKeys("user1");
         extentLogger.info("Enter username: user1");

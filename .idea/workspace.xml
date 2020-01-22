@@ -2,13 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec344ce2-46b5-4023-bf3c-003604577d9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/ContactsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_pom_tests/NegativeLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_pom_tests/NegativeLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_pom_tests/PositiveLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_pom_tests/PositiveLoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day15_extent_report/NegativeLoginTestWithReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day15_extent_report/NegativeLoginTestWithReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day15_pom_Tests/RepeatOptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day15_pom_Tests/RepeatOptionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day16_review/verifyContactInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day16_review/verifyContactInfoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day14_pom_tests/NegativeLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day14_pom_tests/NegativeLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day14_pom_tests/PositiveLoginTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day15_extent_report/NegativeLoginTestWithReport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day15_extent_report/NegativeLoginTestWithReport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day15_pom_Tests/RepeatOptionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day15_pom_Tests/RepeatOptionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day16_review/verifyContactInfoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day16_review/verifyContactInfoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/ContactDetailTest20200119081144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/ContactDetailTest20200119081623.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/ContactDetailTest20200119092242.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/wrongPasswordTest20200119060223.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,11 +53,17 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/Resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/Resources" />
+      <recent name="$PROJECT_DIR$/src/test/java/com/cybertek/utilities" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
   </component>
@@ -61,17 +79,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.verifyContactInfoTest">
-    <configuration name="ExtentDemoTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.DDFLoginTest.loginTestDFF">
+    <configuration name="DDFLoginTest.loginTestDFF" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="uropetesngproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day15_extent_report.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day17_ddf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day15_extent_report" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day15_extent_report.ExtentDemoTest" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day17_ddf" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day17_ddf.DDFLoginTest" />
+      <option name="METHOD_NAME" value="loginTestDFF" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DDFWithDataProvider.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="uropetesngproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day17_ddf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day17_ddf" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day17_ddf.DDFWithDataProvider" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -80,34 +116,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NegativeLoginTestWithReport" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ExcelUtilDemo.readExcelFile" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="uropetesngproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day15_extent_report.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day17_ddf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day15_extent_report" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day15_extent_report.NegativeLoginTestWithReport" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NegativeLoginTestWithReport.wrongPasswordTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="uropetesngproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day15_extent_report.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day15_extent_report" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day15_extent_report.NegativeLoginTestWithReport" />
-      <option name="METHOD_NAME" value="wrongPasswordTest" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day17_ddf" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day17_ddf.ExcelUtilDemo" />
+      <option name="METHOD_NAME" value="readExcelFile" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -115,35 +134,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="verifyContactInfoTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PositiveLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="uropetesngproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day16_review.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day14_pom_tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day16_review" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day16_review.verifyContactInfoTest" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/smoke_test_runner_multi_envirenmrnts.xml" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day14_pom_tests" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day14_pom_tests.PositiveLoginTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="1" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="verifyContactInfoTest.ContactDetailTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/hakim/IdeaProjects/uropetesngproject/smoke_test_runner_multi_envirenmrnts.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="uropetesngproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day16_review.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day16_review" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day16_review.verifyContactInfoTest" />
-      <option name="METHOD_NAME" value="ContactDetailTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/smoke_test_runner_multi_envirenmrnts.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -152,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.verifyContactInfoTest" />
-        <item itemvalue="TestNG.verifyContactInfoTest.ContactDetailTest" />
-        <item itemvalue="TestNG.NegativeLoginTestWithReport" />
-        <item itemvalue="TestNG.NegativeLoginTestWithReport.wrongPasswordTest" />
-        <item itemvalue="TestNG.ExtentDemoTest.test1" />
+        <item itemvalue="TestNG.DDFLoginTest.loginTestDFF" />
+        <item itemvalue="TestNG.DDFWithDataProvider.test1" />
+        <item itemvalue="TestNG.ExcelUtilDemo.readExcelFile" />
+        <item itemvalue="TestNG./Users/hakim/IdeaProjects/uropetesngproject/smoke_test_runner_multi_envirenmrnts.xml" />
+        <item itemvalue="TestNG.PositiveLoginTest" />
       </list>
     </recent_temporary>
   </component>
